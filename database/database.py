@@ -8,8 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # 🔹 Obtener la URL de la BD desde la variable de entorno
-DATABASE_URL = "postgresql://postgres:mate1234@localhost:5432/commandsql"
-#
+DATABASE_URL = os.getenv("DATABASE_URL")
 
 # Crear el motor de conexión a la base de datos
 engine = create_engine(DATABASE_URL)

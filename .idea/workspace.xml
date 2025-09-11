@@ -4,50 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85fbb5e9-18b1-4483-ab02-d82b5e3ac6b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Commad_SQL_Api.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/auth_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/dependencies.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/auth_controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/logro_controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/mision_controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/nivel_controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/progreso_controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/usuario_controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/logro_interface.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/mision_interface.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/nivel_interface.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/progreso_interface.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/usuario_interface.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/auth_schema.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/schemas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/repository/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/repository/logro_repository_impl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/repository/mision_repository_impl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/repository/nivel_repository_impl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/repository/progreso_repository_impl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/repository/usuario_repository_impl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/logro_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/mision_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/nivel_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/progreso_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/usuario_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_main.http" afterDir="false" />
+    <list default="true" id="85fbb5e9-18b1-4483-ab02-d82b5e3ac6b3" name="Changes" comment="v.1.0.0">
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/database/database.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,11 +24,22 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "desplegarfdn"
+  }
+}]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/xe03j/COMMAND_SQL_FRONT.git",
+    "url": "https://github.com/xe03j/COMMAND_SQL_BACK.git",
     "accountId": "c370ef51-cdc3-4ba6-9e8a-b0bdfeda9501"
   }
 }]]></component>
@@ -81,19 +52,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;FastAPI.Commad_SQL_Api.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "FastAPI.Commad_SQL_Api.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "despliegue",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Commad_SQL_Api" type="Python.FastAPI">
       <option name="file" value="$PROJECT_DIR$/main.py" />
@@ -128,12 +99,25 @@
       <option name="presentableId" value="Default" />
       <updated>1757402962917</updated>
       <workItem from="1757402964529" duration="16209000" />
-      <workItem from="1757481143551" duration="23081000" />
+      <workItem from="1757481143551" duration="23575000" />
     </task>
+    <task id="LOCAL-00001" summary="v.1.0.0">
+      <option name="closed" value="true" />
+      <created>1757560986137</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1757560986137</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="v.1.0.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="v.1.0.0" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Commad_SQL_Api$Commad_SQL_Api.coverage" NAME="Commad_SQL_Api Coverage Results" MODIFIED="1757434975877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
