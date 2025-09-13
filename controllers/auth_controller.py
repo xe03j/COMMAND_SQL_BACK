@@ -40,10 +40,10 @@ def register(request: LoginRequest, service: UsuarioService = Depends(get_user_s
 def login(form_data: OAuth2PasswordRequestForm = Depends(), service: UsuarioService = Depends(get_user_service)):
     user = service.obtener_usuario_por_email(form_data.username)
     if not user:
-        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Credenciales inválidas")
+        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Credenciales inválidas. Verifica tu correo y contraseña")
 
     if not verify_password(form_data.password, user.contrasena_hash):
-        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Credenciales inválidas")
+        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Credenciales inválidas. Verifica tu correo y contraseña")
 
     token = create_access_token(data={"sub": user.email})
     return {"access_token": token, "token_type": "bearer"}
